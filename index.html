@@ -4,8 +4,61 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>الأجهزة الرياضية</title>
+<div class="section" id="equipment">
+<h2>🏋️‍♀️ أجهزة العضلات</h2>
 
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b">
+<h3>جهاز المشي</h3>
+<p>يحرق الدهون ويحسن اللياقة القلبية.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61">
+<h3>Leg Press</h3>
+<p>يقوي عضلات الفخذين والأرداف.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1584466977773-e625c37cdd50">
+<h3>Chest Press</h3>
+<p>يبني عضلات الصدر والذراعين.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e">
+<h3>Dumbbells</h3>
+<p>لتقوية جميع عضلات الجسم.</p>
+</div>
+
+</div>
+</div>
 <style>
+    .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: rgba(0,0,0,0.4);
+    width: 260px;
+    padding: 15px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
 body {
     font-family: Arial;
     background: linear-gradient(to right, #f8b6d2, #4a4a4a);

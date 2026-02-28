@@ -3,115 +3,178 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>الأجهزة الرياضية</title>
-<div class="section" id="equipment">
-<h2>🏋️‍♀️ أجهزة العضلات</h2>
+<title>Queen Fitness | لياقة المرأة</title>
 
-<div class="cards">
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b">
-<h3>جهاز المشي</h3>
-<p>يحرق الدهون ويحسن اللياقة القلبية.</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61">
-<h3>Leg Press</h3>
-<p>يقوي عضلات الفخذين والأرداف.</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1584466977773-e625c37cdd50">
-<h3>Chest Press</h3>
-<p>يبني عضلات الصدر والذراعين.</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e">
-<h3>Dumbbells</h3>
-<p>لتقوية جميع عضلات الجسم.</p>
-</div>
-
-</div>
-</div>
 <style>
-    .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:linear-gradient(to right,#f8b6d2,#4a4a4a);
+color:white;
+text-align:center;
 }
 
-.card {
-    background: rgba(0,0,0,0.4);
-    width: 260px;
-    padding: 15px;
-    border-radius: 15px;
-    transition: 0.3s;
+nav{
+background:rgba(0,0,0,0.4);
+padding:15px;
 }
 
-.card:hover {
-    transform: scale(1.05);
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
 }
 
-.card img {
-    width: 100%;
-    border-radius: 10px;
-}
-body {
-    font-family: Arial;
-    background: linear-gradient(to right, #f8b6d2, #4a4a4a);
-    color: white;
-    text-align: center;
-    margin: 0;
+header{
+padding:60px 20px;
 }
 
-.section {
-    background: rgba(0,0,0,0.3);
-    margin: 30px auto;
-    padding: 20px;
-    width: 85%;
-    border-radius: 10px;
+.section{
+background:rgba(0,0,0,0.3);
+margin:30px auto;
+padding:25px;
+width:90%;
+border-radius:15px;
 }
 
-h1 {
-    padding: 30px;
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+.card{
+background:rgba(0,0,0,0.5);
+width:260px;
+padding:15px;
+border-radius:15px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+h1{font-size:45px;}
+h2{color:#ffb6e6;}
+
+button{
+padding:12px 25px;
+font-size:18px;
+border:none;
+border-radius:8px;
+background-color:#ff69b4;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background-color:#ff1493;
 }
 </style>
 </head>
 
 <body>
 
-<h1>🏋️‍♀️ أجهزة العضلات</h1>
+<nav>
+<a href="#home">الرئيسية</a>
+<a href="#equipment">الأجهزة</a>
+<a href="#nutrition">التغذية</a>
+<a href="#workout">التمارين</a>
+</nav>
 
-<div class="section">
-<h2>جهاز المشي (Treadmill)</h2>
-<p>يحرق الدهون ويحسن اللياقة القلبية.</p>
+<header id="home">
+<h1>💗 Queen Fitness</h1>
+<p>منصة رياضية نسائية للأجهزة وبرامج التغذية والتمارين المنزلية</p>
+<button>ابدئي رحلتك الآن</button>
+</header>
+
+<div class="section" id="equipment">
+<h2>🏋️‍♀️ أجهزة النادي الرياضي</h2>
+<div class="cards">
+
+<div class="card">
+<img src="https://source.unsplash.com/300x200/?glute,gym">
+<h3>جهاز ركل الأرداف</h3>
+<p>يقوي عضلات الأرداف.</p>
+<p><strong>الفائدة:</strong> شد ورفع الجزء الخلفي.</p>
 </div>
 
-<div class="section">
-<h2>جهاز الساق (Leg Press)</h2>
-<p>يقوي عضلات الفخذين والأرداف.</p>
+<div class="card">
+<img src="https://source.unsplash.com/300x200/?hip,thrust">
+<h3>جهاز دفع الأرداف</h3>
+<p>تمرين عزل لعضلة الجلوتس.</p>
+<p><strong>الفائدة:</strong> زيادة حجم الأرداف.</p>
 </div>
 
-<div class="section">
-<h2>جهاز الصدر (Chest Press)</h2>
-<p>يبني عضلات الصدر والذراعين.</p>
+<div class="card">
+<img src="https://source.unsplash.com/300x200/?squat,gym">
+<h3>جهاز السكوات</h3>
+<p>تمرين شامل للجزء السفلي.</p>
+<p><strong>الفائدة:</strong> تقوية الفخذين والأرداف.</p>
 </div>
 
-<div class="section">
-<h2>الأوزان الحرة</h2>
-<p>لتقوية جميع عضلات الجسم حسب نوع التمرين.</p>
+<div class="card">
+<img src="https://source.unsplash.com/300x200/?leg,press">
+<h3>ليج برس</h3>
+<p>ضغط بالساقين.</p>
+<p><strong>الفائدة:</strong> زيادة قوة الفخذين.</p>
 </div>
 
-<a href="index.html">⬅ العودة للرئيسية</a>
+<div class="card">
+<img src="https://source.unsplash.com/300x200/?lat,pulldown">
+<h3>سحب أمامي</h3>
+<p>يقوي عضلات الظهر.</p>
+<p><strong>الفائدة:</strong> تحسين شكل الظهر.</p>
+</div>
+
+<div class="card">
+<img src="https://source.unsplash.com/300x200/?chest,press">
+<h3>ضغط الصدر</h3>
+<p>يقوي عضلات الصدر.</p>
+<p><strong>الفائدة:</strong> شد الجزء العلوي.</p>
+</div>
+
+<div class="card">
+<img src="https://source.unsplash.com/300x200/?treadmill">
+<h3>جهاز المشي</h3>
+<p>تمرين كارديو.</p>
+<p><strong>الفائدة:</strong> حرق الدهون.</p>
+</div>
+
+<div class="card">
+<img src="https://source.unsplash.com/300x200/?dumbbells">
+<h3>دمبلز</h3>
+<p>معدات حرة متعددة الاستخدام.</p>
+<p><strong>الفائدة:</strong> تقوية جميع عضلات الجسم.</p>
+</div>
+
+</div>
+</div>
+
+<div class="section" id="nutrition">
+<h2>🥗 برامج التغذية</h2>
+<p><strong>الكربوهيدرات:</strong> أرز، بطاطس، شوفان.</p>
+<p><strong>البروتينات:</strong> دجاج، سمك، بيض.</p>
+<p><strong>السكريات:</strong> يجب تقليلها.</p>
+<p><strong>خسارة الوزن:</strong> سعرات أقل من الاحتياج.</p>
+<p><strong>بناء العضلات:</strong> سعرات أعلى + بروتين مرتفع.</p>
+</div>
+
+<div class="section" id="workout">
+<h2>🔥 تمارين منزلية</h2>
+<p><strong>سكوات:</strong> 3 × 15</p>
+<p><strong>بلانك:</strong> 30-60 ثانية</p>
+<p><strong>ضغط:</strong> 3 × 10</p>
+</div>
 
 </body>
 </html>
